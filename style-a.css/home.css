@@ -1,0 +1,191 @@
+body{
+    background-image: linear-gradient(to top, rgb(31, 8, 8), rgba(70, 44, 22, 0.822) );
+    color: rgb(255, 255, 255);
+    font-family:'Montserrat', sem serifa; 
+    
+}
+
+
+#principal{
+    padding-left: 20px;
+    text-align: center;
+    background-color: rgb(87, 68, 50);
+    margin: 0 auto;
+    
+}
+#img01{
+    width: 99%;
+   
+}
+.corpo01{
+   
+    text-align: center;
+    background-color: rgb(126, 109, 93);
+    padding: 30px;
+    
+}
+.corpo02{
+   
+    text-align: center;
+    background-color: rgb(179, 155, 132);
+    padding: 30px;
+   
+    
+}
+#img02{
+    width: 99%;
+    padding-top: 5px;
+    
+ }
+#bene{
+    text-align: center;
+}
+main{
+    width: 940px;
+    margin: 0 auto;
+   
+}
+.forma{
+    margin: 40px 0;
+}
+.forma label, form fieldset{
+    display: block;
+    font-size: 20px;
+    margin: 0 0 10px;
+}
+.input-padrao{
+    display: block;
+    margin: 0 0 20px;
+    padding: 10px 25px;
+    width: 40%;
+}
+.checkbox{
+    margin: 20px 20px;
+}
+.enviar{
+    width: 40%;
+    padding: 15px 0;
+    background-color: orange;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    transition: 0.9s all;/*velocidade de transição entre elementos*/
+    cursor: pointer;
+}
+.enviar:hover{
+    background-color: red;
+    transform: rotate(0deg) scale(1.2);/*rotaciona e aumenta o botao*/
+
+}
+.table{
+    margin: 40px 0 40px;
+   
+}
+thead {
+    background-color: #555555;
+    color: white;
+    font-weight: bold;
+}
+.table td{
+    border: 1px solid black;
+    padding: 8px 15px;
+}
+.table th{
+    border: 2px solid black;
+    padding: 8px 15px;
+}
+.banner{
+    width: 100%;
+    
+}
+.titulo-principal{
+    text-align: center;
+    font-size: 2em;
+    margin: 0 0 1em;
+    clear: left;
+    
+}
+
+.corpo01{
+    background-color:  rgba(68, 50, 34, 0.384);
+}
+.corpo01 p {
+    margin: 0 0 1em;
+}
+.corpo01 strong{
+    font-weight: bold;
+
+}
+.corpo01 em{
+    font-style: italic;
+}
+#bene{
+    margin: 10px;
+    font-size: 33px;
+}
+#img02{
+    margin-left: 186px;
+    width: 60%;
+    
+}
+.utensilhos{
+    width: 120px;
+    float: left;/*flutua a imagem mas mantem a sombra ocupando espaço, e o texto fica ao redor da imagem*/
+        margin: 15px 20px 17px 21px;/*cima, direita, baixo, esquerda*/
+
+}
+.mapa{
+    padding: 3em 0;
+    
+}
+.mapa p {
+    margin: 18px 0 2em;
+    text-align: center;
+
+}
+#titulo-m{
+    font-size: 33px;
+    text-align: center;
+}
+.video{
+    width: 560px;
+    margin: 1em auto;
+}
+#titulo-b{
+    font-weight: bold;
+    font-size: 43px;
+    padding: 10px 10px;
+    color: white
+}
+#img02{
+    margin: 0;
+
+}
+.conteudo-beneficios{
+    width: 640px;
+    margin: 2px auto;
+    font-size: 20px;
+    line-height: 44px;
+
+}
+.lista-beneficios{
+    width: 40%;;
+    display: inline-block;
+    vertical-align: top;
+    
+}
+.video{
+    width: 500px;
+    margin: 2em auto;
+}
+
+.lista-beneficios li:after{
+    
+    
+}
+#titulo-b{
+    background-color: rgba(124, 86, 54, 0.384);
+    margin-left: -30px;
+}
